@@ -36,34 +36,44 @@ The application defines at least **6–7 entities** with all relationship types:
 ### 4.1 Configure the Database
 - Create the development database in MySQL:
 ```sql
-CREATE DATABASE book_management 
+CREATE DATABASE book_management;
+```
 
-    Update src/main/resources/application-dev.yml with your MySQL username and password.
-
+- Update `src/main/resources/application-dev.yml` with your MySQL username and password.
 4.2 Build and Run
-    mvn clean spring-boot:run -Dspring-boot.run.profiles=dev
-
+```bash
+mvn clean spring-boot:run -Dspring-boot.run.profiles=dev
+```
 4.3 Access in Browser
-    Login page -> http://localhost:8080/users/login
-    Register page -> http://localhost:8080/users/register
-    Books list -> http://localhost:8080/books
-    Authors list -> http://localhost:8080/authors
-    Reviews for a specific book-> -> http://localhost:8080/reviews/book/book_id
+- Login page → http://localhost:8080/users/login
+- Register page → http://localhost:8080/users/register
+- Books list → http://localhost:8080/books
+- Authors list → http://localhost:8080/authors
+- Reviews for a specific book → http://localhost:8080/reviews/book/book_id
+
 
 ## 5. Testing 
 - Run all tests with H2 in-memory DB:
-    mvn test
+
+```bash
+mvn test
+```
 
 - Typical test types included:
-    • Unit tests: services & repositories
-    • Integration tests: controllers
-    • Profile-specific config: test profile auto-configures H2
+  - Unit tests: services & repositories
+  - Integration tests: controllers
+  - Profile-specific config: test profile auto-configures H2
 
 - Useful tips:
-    • To run a single test class:
-        mvn -Dtest=SomeTestClass test
-    • To run with detailed logs:
-        mvn -Dspring-boot.run.profiles=test -Dlogging.level.root=DEBUG test
+
+```bash
+# Run a single test class
+mvn -Dtest=SomeTestClass test
+
+# Run with detailed logs
+mvn -Dspring-boot.run.profiles=test -Dlogging.level.root=DEBUG test
+```
+
 
 ## 6. Technologies 
 - Java 17
