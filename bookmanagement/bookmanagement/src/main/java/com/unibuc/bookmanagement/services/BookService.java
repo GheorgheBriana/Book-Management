@@ -4,6 +4,8 @@ import com.unibuc.bookmanagement.dto.BookDTO;
 import com.unibuc.bookmanagement.models.Book;
 import com.unibuc.bookmanagement.repositories.BookRepository;
 
+import jakarta.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -15,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @Service
+@Transactional
 public class BookService {
     private static final Logger logger = LoggerFactory.getLogger(BookService.class);
     
@@ -31,7 +34,7 @@ public class BookService {
         book.setDescription(bookDTO.getDescription());
         book.setAuthorId(bookDTO.getAuthorId());
 
-        Book savedBook = bookRepository.save(book);
+        Book savedBook = bookRepository.saveAndFlush(book);
         logger.info("Cartea a fost creată cu ID-ul: {}", savedBook.getId());
         return savedBook;
     }

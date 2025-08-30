@@ -13,7 +13,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-//@Profile("!test") // se aplica în toate profilele, exceptand 'test'
 public class SecurityConfig {
 
     private final CustomUserDetailsService userDetailsService;
@@ -35,46 +34,43 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http
+            .authorizeHttpRequests(auth -> auth
+                .requestMatchers(
+                    "/users/register", 
+                    "/users/login", 
+                    "/css/**", 
+                    "/js/**", 
+                    "/images/**"
+                ).permitAll()
 
-@Bean
-public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-    http
-        .authorizeHttpRequests(auth -> auth
-            .requestMatchers(
-                "/users/register",
-                "/users/login",
-                "/css/**",
-                "/js/**",
-                "/images/**"
-            ).permitAll()
+                // Acces public pentru listă cărți, detalii și căutare
+                .requestMatchers("/books", "/books/{id}", "/books/find").permitAll()
 
-            // acces public pentru listă cărți, detalii și căutare
-            .requestMatchers("/books", "/books/{id}", "/books/find").permitAll()
+                // Doar adminul poate adăuga cărți sau autori
+                .requestMatchers("/books/add", "/authors/add").hasRole("ADMIN")
 
-            // doar adminul poate adăuga cărți sau autori
-            .requestMatchers("/books/add", "/authors/add").hasRole("ADMIN")
+                // Oricare altă rută din /books/** (ex: delete) → doar logați
+                .requestMatchers("/books/**").authenticated()
 
-            // orice altceva din /books/** (ex: delete) → doar logați
-            .requestMatchers("/books/**").authenticated()
+                // Restul aplicației → necesită autentificare
+                .anyRequest().authenticated()
+            )
+            .formLogin(form -> form
+                .loginPage("/users/login") // Ruta GET către pagina de login
+                .loginProcessingUrl("/login") // Ruta POST de autentificare
+                .defaultSuccessUrl("/books", true)
+                .permitAll()
+            )
+            .logout(logout -> logout
+                .logoutSuccessUrl("/users/login?logout")
+                .permitAll()
+            );
 
-            // restul aplicației → necesită autentificare
-            .anyRequest().authenticated()
-        )
-        .formLogin(form -> form
-            .loginPage("/users/login")  // ruta GET către pagina de login
-            .loginProcessingUrl("/login") // ruta POST de autentificare
-            .defaultSuccessUrl("/books", true)
-            .permitAll()
-        )
-        .logout(logout -> logout
-            .logoutSuccessUrl("/users/login?logout")
-            .permitAll()
-        );
-
-    return http.build();
-}
-
-
+        return http.build();
+    }
 
     @Bean
     public PasswordEncoder passwordEncoder() {

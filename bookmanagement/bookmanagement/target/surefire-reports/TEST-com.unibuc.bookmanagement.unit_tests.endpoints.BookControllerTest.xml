@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="12.344" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="3.861" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -9,6 +9,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="catalina.useNaming" value="false"/>
     <property name="user.timezone" value="Europe/Bucharest"/>
     <property name="org.jboss.logging.provider" value="slf4j"/>
     <property name="os.name" value="Windows 11"/>
@@ -16,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire17717716934862898519\surefirebooter-20250528185312080_3.jar C:\Users\admin\AppData\Local\Temp\surefire17717716934862898519 2025-05-28T18-53-09_536-jvmRun1 surefire-20250528185312080_1tmp surefire_0-20250528185312080_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire3647743443509192738\surefirebooter-20250529080604674_3.jar C:\Users\admin\AppData\Local\Temp\surefire3647743443509192738 2025-05-29T08-06-04_305-jvmRun1 surefire-20250529080604674_1tmp surefire_0-20250529080604674_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\target\test-classes;D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\target\classes;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.4.0\spring-boot-starter-thymeleaf-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.0\spring-boot-starter-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot\3.4.0\spring-boot-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.0\spring-boot-autoconfigure-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.0\spring-boot-starter-logging-3.4.0.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-classic\1.5.12\logback-classic-1.5.12.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-core\1.5.12\logback-core-1.5.12.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.1\log4j-to-slf4j-2.24.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.1\log4j-api-2.24.1.jar;C:\Users\admin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\admin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\admin\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\admin\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\admin\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\admin\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.0\spring-boot-starter-web-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.0\spring-boot-starter-json-3.4.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.1\jackson-datatype-jdk8-2.18.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.1\jackson-module-parameter-names-2.18.1.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.0\spring-boot-starter-tomcat-3.4.0.jar;C:\Users\admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.33\tomcat-embed-core-10.1.33.jar;C:\Users\admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.33\tomcat-embed-websocket-10.1.33.jar;C:\Users\admin\.m2\repository\org\springframework\spring-web\6.2.0\spring-web-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-beans\6.2.0\spring-beans-6.2.0.jar;C:\Users\admin\.m2\repository\io\micrometer\micrometer-observation\1.14.1\micrometer-observation-1.14.1.jar;C:\Users\admin\.m2\repository\io\micrometer\micrometer-commons\1.14.1\micrometer-commons-1.14.1.jar;C:\Users\admin\.m2\repository\org\springframework\spring-webmvc\6.2.0\spring-webmvc-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-context\6.2.0\spring-context-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-expression\6.2.0\spring-expression-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.0\spring-boot-starter-test-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-test\3.4.0\spring-boot-test-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.0\spring-boot-test-autoconfigure-3.4.0.jar;C:\Users\admin\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\admin\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\admin\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\admin\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\admin\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\admin\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\admin\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\admin\.m2\repository\org\springframework\spring-core\6.2.0\spring-core-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-jcl\6.2.0\spring-jcl-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-test\6.2.0\spring-test-6.2.0.jar;C:\Users\admin\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.4.0\spring-boot-starter-data-jpa-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.0\spring-boot-starter-jdbc-3.4.0.jar;C:\Users\admin\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-jdbc\6.2.0\spring-jdbc-6.2.0.jar;C:\Users\admin\.m2\repository\org\hibernate\orm\hibernate-core\6.6.2.Final\hibernate-core-6.6.2.Final.jar;C:\Users\admin\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\admin\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\admin\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\admin\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\admin\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\admin\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\admin\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\admin\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\admin\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\admin\.m2\repository\org\springframework\data\spring-data-jpa\3.4.0\spring-data-jpa-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\data\spring-data-commons\3.4.0\spring-data-commons-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-orm\6.2.0\spring-orm-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-tx\6.2.0\spring-tx-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-aspects\6.2.0\spring-aspects-6.2.0.jar;C:\Users\admin\.m2\repository\org\aspectj\aspectjweaver\1.9.22.1\aspectjweaver-1.9.22.1.jar;C:\Users\admin\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\admin\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\admin\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\5.5.0\mockito-core-5.5.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.10\byte-buddy-agent-1.15.10.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.5.0\mockito-junit-jupiter-5.5.0.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.4.0\spring-boot-starter-validation-3.4.0.jar;C:\Users\admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.33\tomcat-embed-el-10.1.33.jar;C:\Users\admin\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\admin\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar;C:\Users\admin\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar;C:\Users\admin\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar;C:\Users\admin\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\admin\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar;C:\Users\admin\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.1\jackson-dataformat-yaml-2.18.1.jar;C:\Users\admin\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar;C:\Users\admin\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.4.0\spring-boot-starter-security-3.4.0.jar;C:\Users\admin\.m2\repository\org\springframework\spring-aop\6.2.0\spring-aop-6.2.0.jar;C:\Users\admin\.m2\repository\org\springframework\security\spring-security-config\6.4.1\spring-security-config-6.4.1.jar;C:\Users\admin\.m2\repository\org\springframework\security\spring-security-web\6.4.1\spring-security-web-6.4.1.jar;C:\Users\admin\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;C:\Users\admin\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.0.RELEASE\thymeleaf-extras-springsecurity6-3.1.0.RELEASE.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\admin\.m2\repository\org\springframework\security\spring-security-test\6.4.1\spring-security-test-6.4.1.jar;C:\Users\admin\.m2\repository\org\springframework\security\spring-security-core\6.4.1\spring-security-core-6.4.1.jar;C:\Users\admin\.m2\repository\org\springframework\security\spring-security-crypto\6.4.1\spring-security-crypto-6.4.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.1\httpclient5-5.4.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.1\httpcore5-5.3.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.1\httpcore5-h2-5.3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -25,6 +26,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2024-01-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="spring.profiles.active" value="test"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -33,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire17717716934862898519\surefirebooter-20250528185312080_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire3647743443509192738\surefirebooter-20250529080604674_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -47,13 +49,16 @@
     <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="5"/>
+    <property name="catalina.home" value="C:\Users\admin\AppData\Local\Temp\tomcat.0.14833351665309863579"/>
     <property name="java.version" value="21.0.2"/>
     <property name="user.dir" value="D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="16008"/>
+    <property name="PID" value="4400"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="catalina.base" value="C:\Users\admin\AppData\Local\Temp\tomcat.0.2712245736614361981"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\admin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\admin\bin;C:\Python313\Scripts;C:\Python313;D:\oracle19c\bin;C:\Users\admin\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\admin\Desktop\master\downloads\oracle21\bin;C:\Users\admin\Desktop\master\downloads\db\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Users\admin\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\admin\AppData\Local\Programs\Python\Python312;C:\Users\admin\AppData\Local\Programs\Python\Launcher;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\admin\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\dotnet;C:\spark\spark-3.5.5-bin-hadoop3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Users\admin\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\admin\AppData\Local\Programs\Python\Python312;C:\Users\admin\AppData\Local\Programs\Python\Launcher;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\Desktop\apache-maven-3.9.9\bin;C:\Users\admin\.dotnet\tools;C:\Program Files\Git\usr\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;D:\cursor\resources\app\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
@@ -63,9 +68,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testShowAddBookForm" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="2.374">
-    <system-out><![CDATA[2025-05-28T18:53:22.586+03:00  INFO 16008 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-05-28T18:53:23.170+03:00  INFO 16008 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.unibuc.bookmanagement.BookmanagementApplication for test class com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest
+  <testcase name="testShowAddBookForm" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="1.598">
+    <system-out><![CDATA[2025-05-29T08:06:24.729+03:00  INFO 4400 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-29T08:06:24.756+03:00  INFO 4400 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.unibuc.bookmanagement.BookmanagementApplication for test class com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -76,20 +81,543 @@
 
  :: Spring Boot ::                (v3.4.0)
 
-2025-05-28T18:53:23.299+03:00  INFO 16008 --- [           main] c.u.b.u.endpoints.BookControllerTest     : Starting BookControllerTest using Java 21.0.2 with PID 16008 (started by admin in D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement)
-2025-05-28T18:53:23.299+03:00  INFO 16008 --- [           main] c.u.b.u.endpoints.BookControllerTest     : The following 1 profile is active: "dev"
-2025-05-28T18:53:30.470+03:00  WARN 16008 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+2025-05-29T08:06:24.787+03:00  INFO 4400 --- [           main] c.u.b.u.endpoints.BookControllerTest     : Starting BookControllerTest using Java 21.0.2 with PID 4400 (started by admin in D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement)
+2025-05-29T08:06:24.787+03:00  INFO 4400 --- [           main] c.u.b.u.endpoints.BookControllerTest     : The following 1 profile is active: "test"
+2025-05-29T08:06:25.951+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	c.u.b.c.BookController:
+	{POST [/books/add]}: addBook(BookDTO,BindingResult)
+	{POST [/books/delete/{id}]}: deleteBook(Long)
+	{GET [/books/find]}: getBookByTitle(String,RedirectAttributes)
+	{GET [/books/{id}]}: bookDetails(Long,Model)
+	{GET [/books]}: getAllBooks(int,int,String,String,Model)
+	{GET [/books/add]}: showAddBookForm(Model)
+2025-05-29T08:06:25.971+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-29T08:06:25.974+03:00 DEBUG 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2025-05-29T08:06:25.981+03:00 DEBUG 4400 --- [           main] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 0 mappings in 'beanNameHandlerMapping'
+2025-05-29T08:06:26.091+03:00 TRACE 4400 --- [           main] o.s.w.s.f.support.RouterFunctionMapping  : 0 RouterFunction(s) in 'routerFunctionMapping'
+2025-05-29T08:06:26.094+03:00 TRACE 4400 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-05-29T08:06:26.094+03:00 TRACE 4400 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-05-29T08:06:26.094+03:00 DEBUG 4400 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-29T08:06:26.118+03:00 DEBUG 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-29T08:06:26.179+03:00 DEBUG 4400 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-29T08:06:26.231+03:00  WARN 4400 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 54fa9225-4b6a-4bf1-a38e-a6d75a8cc96c
+Using generated security password: 17e8f7a2-d38e-45a2-bbfc-93266b790abc
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2025-05-28T18:53:30.702+03:00  INFO 16008 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-05-28T18:53:31.851+03:00  INFO 16008 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-05-28T18:53:31.852+03:00  INFO 16008 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-05-28T18:53:31.854+03:00  INFO 16008 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-05-28T18:53:31.999+03:00  INFO 16008 --- [           main] c.u.b.u.endpoints.BookControllerTest     : Started BookControllerTest in 8.811 seconds (process running for 19.707)
-2025-05-28T18:53:32.579+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se afișează formularul de adăugare a unei cărți
+2025-05-29T08:06:26.241+03:00  INFO 4400 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-05-29T08:06:26.566+03:00  INFO 4400 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-29T08:06:26.566+03:00  INFO 4400 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-29T08:06:26.571+03:00  INFO 4400 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2025-05-29T08:06:26.651+03:00  INFO 4400 --- [           main] c.u.b.u.endpoints.BookControllerTest     : Started BookControllerTest in 1.894 seconds (process running for 21.821)
+2025-05-29T08:06:26.902+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#showAddBookForm(Model)
+2025-05-29T08:06:26.956+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se afișează formularul de adăugare a unei cărți
+2025-05-29T08:06:27.061+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:27.068+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View add_book will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
+2025-05-29T08:06:27.081+03:00 DEBUG 4400 --- [           main] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
+2025-05-29T08:06:27.141+03:00 DEBUG 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2025-05-29T08:06:27.501+03:00 TRACE 4400 --- [           main] o.t.TemplateEngine.cache.TEMPLATE_CACHE  : [THYMELEAF][CACHE_INITIALIZE] Initializing cache TEMPLATE_CACHE. Max size: 200. Soft references are used.
+2025-05-29T08:06:27.583+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine.CONFIG      : Initializing Thymeleaf Template engine configuration...
+[THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Thymeleaf version: 3.1.2.RELEASE (built 2023-07-30T19:25:50+0000)
+[THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template resolvers:
+[THYMELEAF]     * org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers:
+[THYMELEAF]     * org.thymeleaf.spring6.messageresolver.SpringMessageResolver
+[THYMELEAF] * Link builders:
+[THYMELEAF]     * org.thymeleaf.linkbuilder.StandardLinkBuilder
+[THYMELEAF] * Dialect [1 of 2]: SpringStandard (org.thymeleaf.spring6.dialect.SpringStandardDialect)
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include,data-th-include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert,data-th-insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace,data-th-replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each,data-th-each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch,data-th-switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case,data-th-case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if,data-th-if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless,data-th-unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object,data-th-object}] [500]: org.thymeleaf.spring6.processor.SpringObjectTagProcessor
+[THYMELEAF]             * [* {th:with,data-th-with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:attr,data-th-attr}] [700]: org.thymeleaf.standard.processor.StandardAttrTagProcessor
+[THYMELEAF]             * [* {th:attrprepend,data-th-attrprepend}] [800]: org.thymeleaf.standard.processor.StandardAttrprependTagProcessor
+[THYMELEAF]             * [* {th:attrappend,data-th-attrappend}] [900]: org.thymeleaf.standard.processor.StandardAttrappendTagProcessor
+[THYMELEAF]             * [* {th:method,data-th-method}] [990]: org.thymeleaf.spring6.processor.SpringMethodTagProcessor
+[THYMELEAF]             * [* {th:alt-title,data-th-alt-title}] [990]: org.thymeleaf.standard.processor.StandardAltTitleTagProcessor
+[THYMELEAF]             * [* {th:lang-xmllang,data-th-lang-xmllang}] [990]: org.thymeleaf.standard.processor.StandardLangXmlLangTagProcessor
+[THYMELEAF]             * [* {th:action,data-th-action}] [1000]: org.thymeleaf.spring6.processor.SpringActionTagProcessor
+[THYMELEAF]             * [* {th:href,data-th-href}] [1000]: org.thymeleaf.spring6.processor.SpringHrefTagProcessor
+[THYMELEAF]             * [* {th:src,data-th-src}] [1000]: org.thymeleaf.spring6.processor.SpringSrcTagProcessor
+[THYMELEAF]             * [* {th:async,data-th-async}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:controls,data-th-controls}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:pubdate,data-th-pubdate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:reversed,data-th-reversed}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:nowrap,data-th-nowrap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:novalidate,data-th-novalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:scoped,data-th-scoped}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:loop,data-th-loop}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autofocus,data-th-autofocus}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:selected,data-th-selected}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:hidden,data-th-hidden}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autoplay,data-th-autoplay}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:readonly,data-th-readonly}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:open,data-th-open}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:ismap,data-th-ismap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:seamless,data-th-seamless}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:formnovalidate,data-th-formnovalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:checked,data-th-checked}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:defer,data-th-defer}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:default,data-th-default}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:multiple,data-th-multiple}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:declare,data-th-declare}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:disabled,data-th-disabled}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:required,data-th-required}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:onloadeddata,data-th-onloadeddata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncontextmenu,data-th-oncontextmenu}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ononline,data-th-ononline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onresize,data-th-onresize}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsubmit,data-th-onsubmit}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninvalid,data-th-oninvalid}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsuspend,data-th-onsuspend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrag,data-th-ondrag}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondblclick,data-th-ondblclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onoffline,data-th-onoffline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onclick,data-th-onclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onscroll,data-th-onscroll}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrop,data-th-ondrop}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onvolumechange,data-th-onvolumechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragover,data-th-ondragover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onredo,data-th-onredo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreset,data-th-onreset}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondurationchange,data-th-ondurationchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstalled,data-th-onstalled}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onload,data-th-onload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadedmetadata,data-th-onloadedmetadata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onchange,data-th-onchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onforminput,data-th-onforminput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpopstate,data-th-onpopstate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragleave,data-th-ondragleave}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpause,data-th-onpause}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onratechange,data-th-onratechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onprogress,data-th-onprogress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeking,data-th-onseeking}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousedown,data-th-onmousedown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeunload,data-th-onbeforeunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onemptied,data-th-onemptied}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeyup,data-th-onkeyup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragenter,data-th-ondragenter}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onundo,data-th-onundo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onerror,data-th-onerror}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onformchange,data-th-onformchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onblur,data-th-onblur}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onwaiting,data-th-onwaiting}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeked,data-th-onseeked}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeypress,data-th-onkeypress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragstart,data-th-ondragstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onselect,data-th-onselect}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplay,data-th-oncanplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onabort,data-th-onabort}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninput,data-th-oninput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreadystatechange,data-th-onreadystatechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeydown,data-th-onkeydown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplaying,data-th-onplaying}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseup,data-th-onmouseup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onshow,data-th-onshow}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseout,data-th-onmouseout}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragend,data-th-ondragend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstorage,data-th-onstorage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onended,data-th-onended}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ontimeupdate,data-th-ontimeupdate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousemove,data-th-onmousemove}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseover,data-th-onmouseover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onfocus,data-th-onfocus}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeprint,data-th-onbeforeprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousewheel,data-th-onmousewheel}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onunload,data-th-onunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadstart,data-th-onloadstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmessage,data-th-onmessage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplaythrough,data-th-oncanplaythrough}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplay,data-th-onplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onhashchange,data-th-onhashchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onafterprint,data-th-onafterprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:inline,data-th-inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineHTMLTagProcessor
+[THYMELEAF]             * [* {th:name,data-th-name}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:type,data-th-type}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dir,data-th-dir}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:maxlength,data-th-maxlength}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:compact,data-th-compact}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:align,data-th-align}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rowspan,data-th-rowspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginheight,data-th-marginheight}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:summary,data-th-summary}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:longdesc,data-th-longdesc}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rows,data-th-rows}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rev,data-th-rev}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scope,data-th-scope}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formenctype,data-th-formenctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:background,data-th-background}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:id,data-th-id}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:step,data-th-step}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formmethod,data-th-formmethod}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:challenge,data-th-challenge}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:datetime,data-th-datetime}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cite,data-th-cite}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scheme,data-th-scheme}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:data,data-th-data}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:width,data-th-width}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:manifest,data-th-manifest}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:start,data-th-start}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:spellcheck,data-th-spellcheck}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cols,data-th-cols}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frameborder,data-th-frameborder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:draggable,data-th-draggable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:lang,data-th-lang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dropzone,data-th-dropzone}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:tabindex,data-th-tabindex}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:label,data-th-label}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:keytype,data-th-keytype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:optimum,data-th-optimum}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hspace,data-th-hspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formtarget,data-th-formtarget}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formaction,data-th-formaction}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:pattern,data-th-pattern}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept-charset,data-th-accept-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:http-equiv,data-th-http-equiv}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contextmenu,data-th-contextmenu}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rules,data-th-rules}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codetype,data-th-codetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:high,data-th-high}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accesskey,data-th-accesskey}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:span,data-th-span}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:colspan,data-th-colspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:radiogroup,data-th-radiogroup}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sizes,data-th-sizes}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellpadding,data-th-cellpadding}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept,data-th-accept}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:class,data-th-class}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:valuetype,data-th-valuetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hreflang,data-th-hreflang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:title,data-th-title}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:charset,data-th-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:standby,data-th-standby}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contenteditable,data-th-contenteditable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:enctype,data-th-enctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:poster,data-th-poster}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:height,data-th-height}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:archive,data-th-archive}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:style,data-th-style}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:alt,data-th-alt}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:list,data-th-list}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:placeholder,data-th-placeholder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:low,data-th-low}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:content,data-th-content}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frame,data-th-frame}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:axis,data-th-axis}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:srclang,data-th-srclang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:form,data-th-form}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellspacing,data-th-cellspacing}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:border,data-th-border}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:audio,data-th-audio}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scrolling,data-th-scrolling}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:usemap,data-th-usemap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rel,data-th-rel}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:autocomplete,data-th-autocomplete}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:kind,data-th-kind}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:preload,data-th-preload}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:headers,data-th-headers}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:classid,data-th-classid}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:bgcolor,data-th-bgcolor}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:wrap,data-th-wrap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:for,data-th-for}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:media,data-th-media}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:target,data-th-target}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:size,data-th-size}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codebase,data-th-codebase}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sandbox,data-th-sandbox}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:vspace,data-th-vspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:max,data-th-max}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginwidth,data-th-marginwidth}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:min,data-th-min}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:icon,data-th-icon}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:abbr,data-th-abbr}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:xmlbase,data-th-xmlbase}] [1000]: org.thymeleaf.standard.processor.StandardXmlBaseTagProcessor
+[THYMELEAF]             * [* {th:xmllang,data-th-xmllang}] [1000]: org.thymeleaf.standard.processor.StandardXmlLangTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:xmlspace,data-th-xmlspace}] [1000]: org.thymeleaf.standard.processor.StandardXmlSpaceTagProcessor
+[THYMELEAF]             * [{option} *] [1005]: org.thymeleaf.spring6.processor.SpringOptionInSelectFieldTagProcessor
+[THYMELEAF]             * [* {th:value,data-th-value}] [1010]: org.thymeleaf.spring6.processor.SpringValueTagProcessor
+[THYMELEAF]             * [* {th:classappend,data-th-classappend}] [1100]: org.thymeleaf.standard.processor.StandardClassappendTagProcessor
+[THYMELEAF]             * [* {th:styleappend,data-th-styleappend}] [1100]: org.thymeleaf.standard.processor.StandardStyleappendTagProcessor
+[THYMELEAF]             * [* {th:text,data-th-text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext,data-th-utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment,data-th-fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert,data-th-assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove,data-th-remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:errors,data-th-errors}] [1700]: org.thymeleaf.spring6.processor.SpringErrorsTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputCheckboxFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputFileFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputPasswordFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringInputRadioFieldTagProcessor
+[THYMELEAF]             * [{option} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringOptionFieldTagProcessor
+[THYMELEAF]             * [{select} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringSelectFieldTagProcessor
+[THYMELEAF]             * [{textarea} {th:field,data-th-field}] [1700]: org.thymeleaf.spring6.processor.SpringTextareaFieldTagProcessor
+[THYMELEAF]             * [* {th:uerrors,data-th-uerrors}] [1700]: org.thymeleaf.spring6.processor.SpringUErrorsTagProcessor
+[THYMELEAF]             * [* {th:errorclass,data-th-errorclass}] [1800]: org.thymeleaf.spring6.processor.SpringErrorClassTagProcessor
+[THYMELEAF]             * [* {th:ref,data-th-ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block,th-block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * DOCTYPE Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardTranslationDocTypeProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]             * [1100]: org.thymeleaf.standard.processor.StandardConditionalCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: XML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:attr}] [700]: org.thymeleaf.standard.processor.StandardAttrTagProcessor
+[THYMELEAF]             * [* {th:attrprepend}] [800]: org.thymeleaf.standard.processor.StandardAttrprependTagProcessor
+[THYMELEAF]             * [* {th:attrappend}] [900]: org.thymeleaf.standard.processor.StandardAttrappendTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineXMLTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: TEXT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: JAVASCRIPT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: CSS
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Expression Objects:
+[THYMELEAF]         * #ctx
+[THYMELEAF]         * #root
+[THYMELEAF]         * #vars
+[THYMELEAF]         * #object
+[THYMELEAF]         * #locale
+[THYMELEAF]         * #conversions
+[THYMELEAF]         * #uris
+[THYMELEAF]         * #temporals
+[THYMELEAF]         * #calendars
+[THYMELEAF]         * #dates
+[THYMELEAF]         * #bools
+[THYMELEAF]         * #numbers
+[THYMELEAF]         * #objects
+[THYMELEAF]         * #strings
+[THYMELEAF]         * #arrays
+[THYMELEAF]         * #lists
+[THYMELEAF]         * #sets
+[THYMELEAF]         * #maps
+[THYMELEAF]         * #aggregates
+[THYMELEAF]         * #messages
+[THYMELEAF]         * #ids
+[THYMELEAF]         * #execInfo
+[THYMELEAF]         * #request
+[THYMELEAF]         * #response
+[THYMELEAF]         * #session
+[THYMELEAF]         * #servletContext
+[THYMELEAF]         * #fields
+[THYMELEAF]         * #themes
+[THYMELEAF]         * #mvc
+[THYMELEAF]         * #requestdatavalues
+[THYMELEAF]     * Execution Attributes:
+[THYMELEAF]         * "StandardExpressionParser": Standard Expression Parser
+[THYMELEAF]         * "StandardJavaScriptSerializer": org.thymeleaf.standard.serializer.StandardJavaScriptSerializer@27779b40
+[THYMELEAF]         * "StandardCSSSerializer": org.thymeleaf.standard.serializer.StandardCSSSerializer@56272a62
+[THYMELEAF]         * "EnableSpringELCompiler": false
+[THYMELEAF]         * "StandardVariableExpressionEvaluator": SpringEL
+[THYMELEAF]         * "StandardConversionService": org.thymeleaf.spring6.expression.SpringStandardConversionService@3cfc147c
+[THYMELEAF] * Dialect [2 of 2]: SpringSecurity (org.thymeleaf.extras.springsecurity6.dialect.SpringSecurityDialect)
+[THYMELEAF]     * Prefix: "sec"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {sec:authorize-acl,data-sec-authorize-acl}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAclAttrProcessor
+[THYMELEAF]             * [* {sec:authorize,data-sec-authorize}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-expr,data-sec-authorize-expr}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-url,data-sec-authorize-url}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeUrlAttrProcessor
+[THYMELEAF]             * [* {xmlns:sec}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {sec:authentication,data-sec-authentication}] [1300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthenticationAttrProcessor
+[THYMELEAF]     * Processors for Template Mode: XML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {sec:authorize-acl}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAclAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-expr}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-url}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeUrlAttrProcessor
+[THYMELEAF]             * [* {xmlns:sec}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {sec:authentication}] [1300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthenticationAttrProcessor
+[THYMELEAF]     * Processors for Template Mode: TEXT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {sec:authorize-acl}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAclAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-expr}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-url}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeUrlAttrProcessor
+[THYMELEAF]             * [* {xmlns:sec}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {sec:authentication}] [1300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthenticationAttrProcessor
+[THYMELEAF]     * Processors for Template Mode: JAVASCRIPT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {sec:authorize-acl}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAclAttrProcessor
+[THYMELEAF]             * [* {sec:authorize}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-expr}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-url}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeUrlAttrProcessor
+[THYMELEAF]             * [* {xmlns:sec}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {sec:authentication}] [1300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthenticationAttrProcessor
+[THYMELEAF]     * Processors for Template Mode: CSS
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {sec:authorize-acl}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAclAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-expr}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeAttrProcessor
+[THYMELEAF]             * [* {sec:authorize-url}] [300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthorizeUrlAttrProcessor
+[THYMELEAF]             * [* {xmlns:sec}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {sec:authentication}] [1300]: org.thymeleaf.extras.springsecurity6.dialect.processor.AuthenticationAttrProcessor
+[THYMELEAF]     * Expression Objects:
+[THYMELEAF]         * #authentication
+[THYMELEAF]         * #authorization
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2025-05-29T08:06:27.585+03:00 DEBUG 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2025-05-29T08:06:27.606+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF][main] STARTING PROCESS OF TEMPLATE "add_book" WITH LOCALE en
+2025-05-29T08:06:27.612+03:00 TRACE 4400 --- [           main] o.t.TemplateEngine.cache.TEMPLATE_CACHE  : [THYMELEAF][main][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "add_book".
+2025-05-29T08:06:27.612+03:00 TRACE 4400 --- [           main] org.thymeleaf.engine.TemplateManager     : [THYMELEAF][main] Template resolver match! Resolver "org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver" will resolve template "add_book"
+2025-05-29T08:06:27.851+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][CACHE_INITIALIZE] Initializing cache EXPRESSION_CACHE. Max size: 500. Soft references are used.
+2025-05-29T08:06:27.851+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${book}".
+2025-05-29T08:06:27.901+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][1] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${book}". New size is 1.
+2025-05-29T08:06:27.901+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book}"
+2025-05-29T08:06:27.901+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book" on target
+2025-05-29T08:06:27.901+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|book".
+2025-05-29T08:06:27.911+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][2] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|book". New size is 2.
+2025-05-29T08:06:27.921+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/books/add}".
+2025-05-29T08:06:27.942+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][3] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/books/add}". New size is 3.
+2025-05-29T08:06:27.942+03:00 TRACE 4400 --- [           main] o.t.standard.expression.LinkExpression   : [THYMELEAF][main] Evaluating link: "@{'/books/add'}"
+2025-05-29T08:06:27.942+03:00 TRACE 4400 --- [           main] o.t.s.expression.TextLiteralExpression   : [THYMELEAF][main] Evaluating text literal: "'/books/add'"
+2025-05-29T08:06:28.061+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|*{title}".
+2025-05-29T08:06:28.061+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][4] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|*{title}". New size is 4.
+2025-05-29T08:06:28.116+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('title')}".
+2025-05-29T08:06:28.116+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][5] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('title')}". New size is 5.
+2025-05-29T08:06:28.116+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${#fields.hasErrors('title')}"
+2025-05-29T08:06:28.116+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "#fields.hasErrors('title')" on target
+2025-05-29T08:06:28.116+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('title')".
+2025-05-29T08:06:28.118+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][6] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('title')". New size is 6.
+2025-05-29T08:06:28.151+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|*{title}".
+2025-05-29T08:06:28.151+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|*{description}".
+2025-05-29T08:06:28.156+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][7] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|*{description}". New size is 7.
+2025-05-29T08:06:28.166+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('description')}".
+2025-05-29T08:06:28.166+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][8] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('description')}". New size is 8.
+2025-05-29T08:06:28.166+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${#fields.hasErrors('description')}"
+2025-05-29T08:06:28.166+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "#fields.hasErrors('description')" on target
+2025-05-29T08:06:28.166+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('description')".
+2025-05-29T08:06:28.166+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][9] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('description')". New size is 9.
+2025-05-29T08:06:28.168+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|*{description}".
+2025-05-29T08:06:28.168+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|*{isbn}".
+2025-05-29T08:06:28.168+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][10] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|*{isbn}". New size is 10.
+2025-05-29T08:06:28.170+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('isbn')}".
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][11] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('isbn')}". New size is 11.
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${#fields.hasErrors('isbn')}"
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "#fields.hasErrors('isbn')" on target
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('isbn')".
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][12] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('isbn')". New size is 12.
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|*{isbn}".
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|*{authorId}".
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][13] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|*{authorId}". New size is 13.
+2025-05-29T08:06:28.171+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|*{authorId}".
+2025-05-29T08:06:28.182+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "each|author : ${authors}".
+2025-05-29T08:06:28.186+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][14] Adding cache entry in cache "EXPRESSION_CACHE" for key "each|author : ${authors}". New size is 14.
+2025-05-29T08:06:28.187+03:00 TRACE 4400 --- [           main] o.t.s.expression.GenericTokenExpression  : [THYMELEAF][main] Evaluating generic token: "author"
+2025-05-29T08:06:28.187+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${authors}"
+2025-05-29T08:06:28.187+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "authors" on target
+2025-05-29T08:06:28.187+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|authors".
+2025-05-29T08:06:28.187+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][15] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|authors". New size is 15.
+2025-05-29T08:06:28.203+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('authorId')}".
+2025-05-29T08:06:28.204+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][16] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${#fields.hasErrors('authorId')}". New size is 16.
+2025-05-29T08:06:28.204+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${#fields.hasErrors('authorId')}"
+2025-05-29T08:06:28.204+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "#fields.hasErrors('authorId')" on target
+2025-05-29T08:06:28.204+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('authorId')".
+2025-05-29T08:06:28.204+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][17] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|#fields.hasErrors('authorId')". New size is 17.
+2025-05-29T08:06:28.204+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|*{authorId}".
+2025-05-29T08:06:28.207+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF][main] FINISHED PROCESS AND OUTPUT OF TEMPLATE "add_book" WITH LOCALE en
+2025-05-29T08:06:28.207+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine.TIMER       : [THYMELEAF][main][add_book][en][596316500][596] TEMPLATE "add_book" WITH LOCALE en PROCESSED IN 596316500 nanoseconds (approx. 596ms)
 ]]></system-out>
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.10\byte-buddy-agent-1.15.10.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
@@ -97,30 +625,161 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="testFindBookByTitleNotFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.115">
-    <system-out><![CDATA[2025-05-28T18:53:34.518+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se caută cartea cu titlul: Unknown Book
-2025-05-28T18:53:34.528+03:00  WARN 16008 --- [           main] c.u.b.controllers.BookController         : Cartea cu titlul "Unknown Book" nu a fost găsită
+  <testcase name="testFindBookByTitleNotFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.075">
+    <system-out><![CDATA[2025-05-29T08:06:28.339+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#getBookByTitle(String, RedirectAttributes)
+2025-05-29T08:06:28.341+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se caută cartea cu titlul: Unknown Book
+2025-05-29T08:06:28.356+03:00  WARN 4400 --- [           main] c.u.b.controllers.BookController         : Cartea cu titlul "Unknown Book" nu a fost găsită
+2025-05-29T08:06:28.356+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:28.356+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View "redirect:/books" is a redirect, and will not be handled directly by ThymeleafViewResolver.
+2025-05-29T08:06:28.361+03:00 DEBUG 4400 --- [           main] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
 ]]></system-out>
   </testcase>
-  <testcase name="testBookDetailsNotFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.012">
-    <system-out><![CDATA[2025-05-28T18:53:34.564+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se accesează detalii pentru cartea cu ID-ul: 999
-2025-05-28T18:53:34.565+03:00  WARN 16008 --- [           main] c.u.b.controllers.BookController         : Cartea cu ID-ul 999 nu a fost găsită
+  <testcase name="testBookDetailsNotFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.014">
+    <system-out><![CDATA[2025-05-29T08:06:28.390+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#bookDetails(Long, Model)
+2025-05-29T08:06:28.391+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se accesează detalii pentru cartea cu ID-ul: 999
+2025-05-29T08:06:28.391+03:00  WARN 4400 --- [           main] c.u.b.controllers.BookController         : Cartea cu ID-ul 999 nu a fost găsită
+2025-05-29T08:06:28.391+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:28.391+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View "redirect:/books" is a redirect, and will not be handled directly by ThymeleafViewResolver.
+2025-05-29T08:06:28.391+03:00 TRACE 4400 --- [           main] o.s.w.s.v.InternalResourceViewResolver   : View with key [redirect:/books] served from cache
+2025-05-29T08:06:28.391+03:00 DEBUG 4400 --- [           main] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
 ]]></system-out>
   </testcase>
-  <testcase name="testBookDetailsFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.136">
-    <system-out><![CDATA[2025-05-28T18:53:34.582+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se accesează detalii pentru cartea cu ID-ul: 1
+  <testcase name="testBookDetailsFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.086">
+    <system-out><![CDATA[2025-05-29T08:06:28.403+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#bookDetails(Long, Model)
+2025-05-29T08:06:28.403+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se accesează detalii pentru cartea cu ID-ul: 1
+2025-05-29T08:06:28.404+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:28.404+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View book-details will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
+2025-05-29T08:06:28.404+03:00 DEBUG 4400 --- [           main] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
+2025-05-29T08:06:28.405+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF][main] STARTING PROCESS OF TEMPLATE "book-details" WITH LOCALE en
+2025-05-29T08:06:28.405+03:00 TRACE 4400 --- [           main] o.t.TemplateEngine.cache.TEMPLATE_CACHE  : [THYMELEAF][main][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "book-details".
+2025-05-29T08:06:28.405+03:00 TRACE 4400 --- [           main] org.thymeleaf.engine.TemplateManager     : [THYMELEAF][main] Template resolver match! Resolver "org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver" will resolve template "book-details"
+2025-05-29T08:06:28.408+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${book.title}".
+2025-05-29T08:06:28.408+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][18] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${book.title}". New size is 18.
+2025-05-29T08:06:28.408+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.title}"
+2025-05-29T08:06:28.408+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.title" on target
+2025-05-29T08:06:28.408+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|book.title".
+2025-05-29T08:06:28.409+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][19] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|book.title". New size is 19.
+2025-05-29T08:06:28.419+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${book.authorName}".
+2025-05-29T08:06:28.419+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][20] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${book.authorName}". New size is 20.
+2025-05-29T08:06:28.419+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.authorName}"
+2025-05-29T08:06:28.419+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.authorName" on target
+2025-05-29T08:06:28.419+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|book.authorName".
+2025-05-29T08:06:28.419+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][21] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|book.authorName". New size is 21.
+2025-05-29T08:06:28.421+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${book.isbn}".
+2025-05-29T08:06:28.421+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][22] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${book.isbn}". New size is 22.
+2025-05-29T08:06:28.421+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.isbn}"
+2025-05-29T08:06:28.421+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.isbn" on target
+2025-05-29T08:06:28.421+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|book.isbn".
+2025-05-29T08:06:28.422+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][23] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|book.isbn". New size is 23.
+2025-05-29T08:06:28.422+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${book.description}".
+2025-05-29T08:06:28.422+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][24] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${book.description}". New size is 24.
+2025-05-29T08:06:28.423+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.description}"
+2025-05-29T08:06:28.423+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.description" on target
+2025-05-29T08:06:28.423+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|book.description".
+2025-05-29T08:06:28.423+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][25] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|book.description". New size is 25.
+2025-05-29T08:06:28.428+03:00 TRACE 4400 --- [           main] o.t.e.springsecurity6.auth.AuthUtils     : [THYMELEAF][main] Obtaining authentication object.
+2025-05-29T08:06:28.436+03:00 TRACE 4400 --- [           main] o.t.e.s.util.SpringVersionSpecificUtils  : [THYMELEAF][TESTING] Spring 6.0+ found on classpath. Initializing version-specific utilities for Spring 6
+2025-05-29T08:06:28.446+03:00 TRACE 4400 --- [           main] o.t.e.springsecurity6.auth.AuthUtils     : [THYMELEAF][main] No authentication object found in context.
+2025-05-29T08:06:28.447+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/reviews/book/{id}(id=${book.id})}".
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][26] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/reviews/book/{id}(id=${book.id})}". New size is 26.
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.standard.expression.LinkExpression   : [THYMELEAF][main] Evaluating link: "@{'/reviews/book/{id}'(id=${book.id})}"
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.s.expression.TextLiteralExpression   : [THYMELEAF][main] Evaluating text literal: "'/reviews/book/{id}'"
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.s.expression.GenericTokenExpression  : [THYMELEAF][main] Evaluating generic token: "id"
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.id}"
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.id" on target
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|book.id".
+2025-05-29T08:06:28.455+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][27] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|book.id". New size is 27.
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/reviews/add/{id}(id=${book.id})}".
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][28] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/reviews/add/{id}(id=${book.id})}". New size is 28.
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.standard.expression.LinkExpression   : [THYMELEAF][main] Evaluating link: "@{'/reviews/add/{id}'(id=${book.id})}"
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.s.expression.TextLiteralExpression   : [THYMELEAF][main] Evaluating text literal: "'/reviews/add/{id}'"
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.s.expression.GenericTokenExpression  : [THYMELEAF][main] Evaluating generic token: "id"
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.id}"
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.id" on target
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "spel|book.id".
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF][main] FINISHED PROCESS AND OUTPUT OF TEMPLATE "book-details" WITH LOCALE en
+2025-05-29T08:06:28.476+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine.TIMER       : [THYMELEAF][main][book-details][en][73183700][73] TEMPLATE "book-details" WITH LOCALE en PROCESSED IN 73183700 nanoseconds (approx. 73ms)
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteBook" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.01">
-    <system-out><![CDATA[2025-05-28T18:53:34.713+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se șterge cartea cu ID-ul: 1
+  <testcase name="testDeleteBook" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.014">
+    <system-out><![CDATA[2025-05-29T08:06:28.481+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#deleteBook(Long)
+2025-05-29T08:06:28.481+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se șterge cartea cu ID-ul: 1
+2025-05-29T08:06:28.481+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:28.489+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View "redirect:/books" is a redirect, and will not be handled directly by ThymeleafViewResolver.
+2025-05-29T08:06:28.489+03:00 TRACE 4400 --- [           main] o.s.w.s.v.InternalResourceViewResolver   : View with key [redirect:/books] served from cache
+2025-05-29T08:06:28.489+03:00 DEBUG 4400 --- [           main] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAllBooksPaginated" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.163">
-    <system-out><![CDATA[2025-05-28T18:53:34.780+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se obține lista de cărți - pagină: 0, dimensiune: 10, sortare după: title, direcție: asc
+  <testcase name="testGetAllBooksPaginated" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.075">
+    <system-out><![CDATA[2025-05-29T08:06:28.532+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#getAllBooks(int, int, String, String, Model)
+2025-05-29T08:06:28.544+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se obține lista de cărți - pagină: 0, dimensiune: 10, sortare după: title, direcție: asc
+2025-05-29T08:06:28.546+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:28.547+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View book_list will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
+2025-05-29T08:06:28.547+03:00 DEBUG 4400 --- [           main] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
+2025-05-29T08:06:28.547+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF][main] STARTING PROCESS OF TEMPLATE "book_list" WITH LOCALE en
+2025-05-29T08:06:28.547+03:00 TRACE 4400 --- [           main] o.t.TemplateEngine.cache.TEMPLATE_CACHE  : [THYMELEAF][main][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "book_list".
+2025-05-29T08:06:28.548+03:00 TRACE 4400 --- [           main] org.thymeleaf.engine.TemplateManager     : [THYMELEAF][main] Template resolver match! Resolver "org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver" will resolve template "book_list"
+2025-05-29T08:06:28.550+03:00 TRACE 4400 --- [           main] o.t.e.springsecurity6.auth.AuthUtils     : [THYMELEAF][main] Obtaining authentication object.
+2025-05-29T08:06:28.550+03:00 TRACE 4400 --- [           main] o.t.e.springsecurity6.auth.AuthUtils     : [THYMELEAF][main] No authentication object found in context.
+2025-05-29T08:06:28.550+03:00 TRACE 4400 --- [           main] o.t.e.springsecurity6.auth.AuthUtils     : [THYMELEAF][main] Obtaining authentication object.
+2025-05-29T08:06:28.550+03:00 TRACE 4400 --- [           main] o.t.e.springsecurity6.auth.AuthUtils     : [THYMELEAF][main] No authentication object found in context.
+2025-05-29T08:06:28.550+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/books/find}".
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][29] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/books/find}". New size is 29.
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.standard.expression.LinkExpression   : [THYMELEAF][main] Evaluating link: "@{'/books/find'}"
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.s.expression.TextLiteralExpression   : [THYMELEAF][main] Evaluating text literal: "'/books/find'"
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "each|book : ${bookPage.content}".
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][30] Adding cache entry in cache "EXPRESSION_CACHE" for key "each|book : ${bookPage.content}". New size is 30.
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.s.expression.GenericTokenExpression  : [THYMELEAF][main] Evaluating generic token: "book"
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${bookPage.content}"
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "bookPage.content" on target
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|bookPage.content".
+2025-05-29T08:06:28.551+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][31] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|bookPage.content". New size is 31.
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/books/{id}(id=${book.id})}".
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][32] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/books/{id}(id=${book.id})}". New size is 32.
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.standard.expression.LinkExpression   : [THYMELEAF][main] Evaluating link: "@{'/books/{id}'(id=${book.id})}"
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.s.expression.TextLiteralExpression   : [THYMELEAF][main] Evaluating text literal: "'/books/{id}'"
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.s.expression.GenericTokenExpression  : [THYMELEAF][main] Evaluating generic token: "id"
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.id}"
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.id" on target
+2025-05-29T08:06:28.554+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "spel|book.id".
+2025-05-29T08:06:28.556+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|${book.title}".
+2025-05-29T08:06:28.556+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${book.title}"
+2025-05-29T08:06:28.556+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "book.title" on target
+2025-05-29T08:06:28.557+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${bookPage.number + 1} + ' din ' + ${bookPage.totalPages}".
+2025-05-29T08:06:28.561+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][33] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${bookPage.number + 1} + ' din ' + ${bookPage.totalPages}". New size is 33.
+2025-05-29T08:06:28.561+03:00 TRACE 4400 --- [           main] o.t.s.expression.AdditionExpression      : [THYMELEAF][main] Evaluating addition expression: "(${bookPage.number + 1} + ' din ') + ${bookPage.totalPages}"
+2025-05-29T08:06:28.561+03:00 TRACE 4400 --- [           main] o.t.s.expression.AdditionExpression      : [THYMELEAF][main] Evaluating addition expression: "${bookPage.number + 1} + ' din '"
+2025-05-29T08:06:28.561+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${bookPage.number + 1}"
+2025-05-29T08:06:28.561+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "bookPage.number + 1" on target
+2025-05-29T08:06:28.561+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|bookPage.number + 1".
+2025-05-29T08:06:28.563+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][34] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|bookPage.number + 1". New size is 34.
+2025-05-29T08:06:28.563+03:00 TRACE 4400 --- [           main] o.t.s.expression.TextLiteralExpression   : [THYMELEAF][main] Evaluating text literal: "' din '"
+2025-05-29T08:06:28.563+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${bookPage.totalPages}"
+2025-05-29T08:06:28.563+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "bookPage.totalPages" on target
+2025-05-29T08:06:28.563+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|bookPage.totalPages".
+2025-05-29T08:06:28.564+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][35] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|bookPage.totalPages". New size is 35.
+2025-05-29T08:06:28.565+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${bookPage.hasPrevious()}".
+2025-05-29T08:06:28.565+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][36] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${bookPage.hasPrevious()}". New size is 36.
+2025-05-29T08:06:28.565+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${bookPage.hasPrevious()}"
+2025-05-29T08:06:28.565+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "bookPage.hasPrevious()" on target
+2025-05-29T08:06:28.565+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|bookPage.hasPrevious()".
+2025-05-29T08:06:28.565+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][37] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|bookPage.hasPrevious()". New size is 37.
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|${bookPage.hasNext()}".
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][38] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|${bookPage.hasNext()}". New size is 38.
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] o.t.s.expression.VariableExpression      : [THYMELEAF][main] Evaluating variable expression: "${bookPage.hasNext()}"
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] o.t.s.e.SPELVariableExpressionEvaluator  : [THYMELEAF][main] SpringEL expression: evaluating expression "bookPage.hasNext()" on target
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "spel|bookPage.hasNext()".
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] o.t.T.cache.EXPRESSION_CACHE             : [THYMELEAF][main][EXPRESSION_CACHE][CACHE_ADD][39] Adding cache entry in cache "EXPRESSION_CACHE" for key "spel|bookPage.hasNext()". New size is 39.
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine             : [THYMELEAF][main] FINISHED PROCESS AND OUTPUT OF TEMPLATE "book_list" WITH LOCALE en
+2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] org.thymeleaf.TemplateEngine.TIMER       : [THYMELEAF][main][book_list][en][24353700][24] TEMPLATE "book_list" WITH LOCALE en PROCESSED IN 24353700 nanoseconds (approx. 24ms)
 ]]></system-out>
   </testcase>
-  <testcase name="testFindBookByTitleFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.011">
-    <system-out><![CDATA[2025-05-28T18:53:34.892+03:00  INFO 16008 --- [           main] c.u.b.controllers.BookController         : Se caută cartea cu titlul: Some Book
+  <testcase name="testFindBookByTitleFound" classname="com.unibuc.bookmanagement.unit_tests.endpoints.BookControllerTest" time="0.016">
+    <system-out><![CDATA[2025-05-29T08:06:28.571+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.unibuc.bookmanagement.controllers.BookController#getBookByTitle(String, RedirectAttributes)
+2025-05-29T08:06:28.580+03:00  INFO 4400 --- [           main] c.u.b.controllers.BookController         : Se caută cartea cu titlul: Some Book
+2025-05-29T08:06:28.582+03:00 TRACE 4400 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Applying default cacheSeconds=-1
+2025-05-29T08:06:28.582+03:00 TRACE 4400 --- [           main] o.t.spring6.view.ThymeleafViewResolver   : [THYMELEAF] View "redirect:/books/123" is a redirect, and will not be handled directly by ThymeleafViewResolver.
+2025-05-29T08:06:28.582+03:00 DEBUG 4400 --- [           main] o.s.web.servlet.view.RedirectView        : View name [redirect:], model {}
 ]]></system-out>
   </testcase>
 </testsuite>

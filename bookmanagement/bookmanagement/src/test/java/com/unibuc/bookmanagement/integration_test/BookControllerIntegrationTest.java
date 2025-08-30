@@ -93,8 +93,6 @@ class BookControllerIntegrationTest {
         assertThat(bookRepository.findAll().get(0).getTitle()).isEqualTo("Integration Test Book");
     }
 
-    @TestConfiguration
-    @Profile("test")
     static class TestSecurityConfig {
 
         @Bean

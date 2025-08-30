@@ -8,13 +8,14 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("test")  // rulează doar când profilul activ este "test"
+@Profile("!test")                // ← PORNEŞTE oriunde, DAR NU pe profilul „test”
 public class TestAdminInitializer {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
 
-    public TestAdminInitializer(UserRepository userRepository, PasswordEncoder passwordEncoder) {
+    public TestAdminInitializer(UserRepository userRepository,
+                                PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
     }
@@ -25,11 +26,11 @@ public class TestAdminInitializer {
             User admin = new User();
             admin.setUsername("admin");
             admin.setEmail("admin@example.com");
-            admin.setPassword(passwordEncoder.encode("Parola123**"));  // parola criptată
-            admin.setRole("ADMIN");  // poți pune "ADMIN" cu majuscule dacă vrei să fie consistent
-            
+            admin.setPassword(passwordEncoder.encode("Parola123**"));
+            admin.setRole("ADMIN");              // păstrează-l fără prefix „ROLE_”; îl tratezi în UserDetails
             userRepository.save(admin);
-            System.out.println("Admin user created for TEST profile.");
+
+            System.out.println("Admin user created (non-test profile).");
         }
     }
 }
