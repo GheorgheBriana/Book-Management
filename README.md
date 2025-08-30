@@ -8,6 +8,7 @@
 
 The application demonstrates the use of multiple entity relationships, CRUD operations, validation, authentication, logging, pagination, and testing, according to the project requirements.
 
+---
 
 ## Covered Requirements
 1. **Entity relationships**: Includes `@OneToOne`, `@OneToMany`, `@ManyToOne`, `@ManyToMany`.  
@@ -21,8 +22,10 @@ The application demonstrates the use of multiple entity relationships, CRUD oper
 7. **Pagination & sorting**: Implemented for listing entities with Spring Data `Pageable`.  
 8. **Spring Security**: JDBC authentication with `users` and `roles` tables.  
 
+---
+
 ## Entities and Relationships
-The application defines at least **6–7 entities** with all relationship types:
+The application defines **6 entities** with all relationship types:
 
 - **User** <-> `@OneToMany` Reviews, `@OneToMany` UserBook  
 - **Book** <-> `@ManyToOne` Author, `@ManyToOne` Genre, `@OneToMany` Reviews, `@OneToMany` UserBook  
@@ -31,80 +34,94 @@ The application defines at least **6–7 entities** with all relationship types:
 - **Review** <-> `@ManyToOne` User, `@ManyToOne` Book  
 - **UserBook** <-> `@ManyToOne` User, `@ManyToOne` Book (join table for ManyToMany)  
 
+| Entity | Relationships |
+|--------|---------------|
+| **User** | `@OneToMany` Reviews, `@OneToMany` UserBook |
+| **Book** | `@ManyToOne` Author, `@ManyToOne` Genre, `@OneToMany` Reviews, `@OneToMany` UserBook |
+| **Author** | `@OneToMany` Books |
+| **Genre** | `@OneToMany` Books |
+| **Review** | `@ManyToOne` User, `@ManyToOne` Book |
+| **UserBook** | `@ManyToOne` User, `@ManyToOne` Book |
+---
+
 ## 4. How to Run ⚙️
 
-### 4.1 Configure the Database
-- Create the development database in MySQL:
+### 1. Configure the Database
+Create the development database in MySQL:
 ```sql
 CREATE DATABASE book_management;
 ```
-
-- Update `src/main/resources/application-dev.yml` with your MySQL username and password.
-4.2 Build and Run
+Update database credentials in `src/main/resources/application-dev.yml`:
+```yaml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/book_management
+    username: your_username
+    password: your_password
+```
+### 2. Build and Run
 ```bash
 mvn clean spring-boot:run -Dspring-boot.run.profiles=dev
 ```
-4.3 Access in Browser
-- Login page → http://localhost:8080/users/login
-- Register page → http://localhost:8080/users/register
-- Books list → http://localhost:8080/books
-- Authors list → http://localhost:8080/authors
-- Reviews for a specific book → http://localhost:8080/reviews/book/book_id
+### 3. Access the Application
+- **Login page**: http://localhost:8080/users/login
+- **Register page**: http://localhost:8080/users/register
+- **Books list**: http://localhost:8080/books
+- **Authors list**: http://localhost:8080/authors
+- **Book reviews**: http://localhost:8080/reviews/book/{book_id}
 
+---
 
 ## 5. Testing 
-- Run all tests with H2 in-memory DB:
+    Run all tests with H2 in-memory DB:
 
 ```bash
 mvn test
 ```
 
-- Typical test types included:
+### Test types:
   - Unit tests: services & repositories
   - Integration tests: controllers
   - Profile-specific config: test profile auto-configures H2
-
-- Useful tips:
+  
+### Useful Test Commands
 
 ```bash
-# Run a single test class
-mvn -Dtest=SomeTestClass test
-
+# Run a specific test class
+mvn -Dtest=BookServiceTest test
 # Run with detailed logs
 mvn -Dspring-boot.run.profiles=test -Dlogging.level.root=DEBUG test
 ```
 
+---
+## Technologies Used
+| Technology | Version |
+|------------|---------|
+| Java | 17 |
+| Spring Boot | 3.x |
+| MySQL | 8.0 |
+| H2 Database | (for testing) |
+| JUnit | 5 |
+| Maven | |
+| Lombok | |
+| SLF4J | |
+---
 
-## 6. Technologies 
-- Java 17
-- Spring Boot 3 (Web, Data JPA, Validation, Security, Thymeleaf)
-- MySQL (dev), H2 (test)
-- JUnit 5 & Spring Boot Test
-- Maven
-- Lombok
-- SLF4J logging
-  
-## 7. Project Structure 📂
+## Project Structure
+```
 BookManagement/
- ┣ src/main/java/com/unibuc/bookmanagement
- ┃ ┣ aspects/         # Contains AOP-related classes (e.g., logging, performance monitoring)
- ┃ ┣ config/          # Configuration classes (security, database, application profiles)
- ┃ ┣ controllers/     # Web controllers handling HTTP requests and responses
- ┃ ┣ dto/             # Data Transfer Objects used to pass data between layers
- ┃ ┣ errors/          # Centralized error handling logic
- ┃ ┣ exception/       # Custom exception classes
- ┃ ┣ junction_tables/ # Entities representing join tables for many-to-many relationships
- ┃ ┣ models/          # JPA entities (User, Book, Author, Genre, Review, UserBook, etc.)
- ┃ ┣ repositories/    # Spring Data JPA repositories for database access
- ┃ ┣ services/        # Service layer with business logic
- ┃ ┗ BookmanagementApplication.java  # Main entry point of the Spring Boot application
- ┣ src/main/resources
- ┃ ┣ templates/                # Thymeleaf templates (views for forms, lists, etc.)
- ┃ ┣ application.properties    # Default configuration
- ┃ ┣ application-dev.properties # Development profile (MySQL)
- ┃ ┗ application-test.properties # Test profile (H2 in-memory)
- ┣ pom.xml
- ┗ README.md
-
+└── src/main/java/com/unibuc/bookmanagement
+    ├── aspects/          # AOP classes (logging, performance monitoring)
+    ├── config/           # Configuration classes
+    ├── controllers/      # Web controllers
+    ├── dto/              # Data Transfer Objects
+    ├── errors/           # Error handling
+    ├── exception/        # Custom exceptions
+    ├── junction_tables/  # Many-to-many join tables
+    ├── models/           # JPA entities
+    ├── repositories/     # Data access layer
+    ├── services/         # Business logic layer
+    └── BookmanagementApplication.java  # Main application class
+```
 
 
