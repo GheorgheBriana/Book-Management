@@ -4,13 +4,13 @@ D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\sr
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\AuthorControllerIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\BookControllerIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\BookControllerWebTest.java
-D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\BookIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\GenreControllerIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\HomeControllerIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\NoRedirectRestTemplateConfig.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\NoSecurityConfig.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\ReviewControllerIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\UserBookControllerIntegrationTest.java
+D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\integration_test\UserControllerIntegrationTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\unit_tests\endpoints\AuthorControllerTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\unit_tests\endpoints\BookControllerTest.java
 D:\facultate\master\an1sem2\awbd\BookManagement\bookmanagement\bookmanagement\src\test\java\com\unibuc\bookmanagement\unit_tests\endpoints\GenreControllerTest.java

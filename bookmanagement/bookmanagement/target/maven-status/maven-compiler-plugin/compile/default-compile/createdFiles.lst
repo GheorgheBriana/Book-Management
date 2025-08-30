@@ -11,6 +11,7 @@ com\unibuc\bookmanagement\dto\BookDTO.class
 com\unibuc\bookmanagement\services\GenreService.class
 com\unibuc\bookmanagement\controllers\HomeController.class
 com\unibuc\bookmanagement\BookmanagementApplication.class
+com\unibuc\bookmanagement\config\TestAdminInitializer.class
 com\unibuc\bookmanagement\repositories\GenreRepository.class
 com\unibuc\bookmanagement\controllers\UserBookController.class
 com\unibuc\bookmanagement\controllers\GenreController.class
@@ -29,6 +30,7 @@ com\unibuc\bookmanagement\repositories\UserBookRepository.class
 com\unibuc\bookmanagement\config\SwaggerConfig.class
 com\unibuc\bookmanagement\dto\LoginRequest.class
 com\unibuc\bookmanagement\repositories\ReviewRepository.class
+com\unibuc\bookmanagement\aspects\LoggingAspect.class
 com\unibuc\bookmanagement\repositories\BookInfoRepository.class
 com\unibuc\bookmanagement\config\AdminInitializer.class
 com\unibuc\bookmanagement\services\AuthorService.class

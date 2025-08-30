@@ -1,11 +1,17 @@
-# 1. Imagine de bază Java 17
-FROM openjdk:17-jdk-slim
-
-# 2. Directorul de lucru în container
+# ---------- Stage 1: Build ----------
+FROM eclipse-temurin:17-jdk-alpine AS build
 WORKDIR /app
+# Copiem doar fișierele de build întâi (caching mai bun)
+COPY pom.xml ./
+COPY src ./src
+# Build fără teste -> produce JAR în /app/target/
+RUN ./mvnw -q -DskipTests package || (apk add --no-cache maven && mvn -q -DskipTests package)
 
-# 3. Copiază jar-ul generat de Maven în container
-COPY target/bookmanagement-0.0.1-SNAPSHOT.jar app.jar
-
-# 4. Comanda de rularee
-ENTRYPOINT ["java","-jar","app.jar"]
+# ---------- Stage 2: Run ----------
+FROM eclipse-temurin:17-jre-alpine
+WORKDIR /app
+# Copiem JAR-ul rezultat din etapa de build
+COPY --from=build /app/target/*.jar /app/app.jar
+# Portul îl injectează Render prin $PORT
+ENV JAVA_OPTS=""
+CMD ["sh", "-c", "java $JAVA_OPTS -Dserver.port=$PORT -jar /app/app.jar"]
