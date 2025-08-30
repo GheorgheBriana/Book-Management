@@ -94,7 +94,19 @@ mvn -Dspring-boot.run.profiles=test -Dlogging.level.root=DEBUG test
 ```
 
 ---
-## Technologies Used
+## Architecture and Technologies Used
+
+```mermaid
+graph LR
+    UI[Thymeleaf] --> C[Controller]
+    C --> S[Service]
+    S --> R[Repository]
+    R --> DB[(MySQL/H2)]
+    S --> Sec[Spring Security]
+    Logs((Logback)) --> S
+
+```
+
 | Technology | Version |
 |------------|---------|
 | Java | 17 |
@@ -123,5 +135,30 @@ BookManagement/
     ├── services/         # Business logic layer
     └── BookmanagementApplication.java  # Main application class
 ```
+---
 
+## Features 
+- Users can register and log in securely.
+- Authenticated users can browse books and authors.
+- Admin users can add, edit, and delete books, authors, and genres.
+- Users can write reviews for books and see reviews from others.
+- Pagination and sorting available in books and authors listings.
 
+## Security 
+The application uses **Spring Security** with a custom `UserDetailsService` and JDBC-based authentication.
+
+- **Password storage**: All user passwords are hashed using `BCryptPasswordEncoder`.  
+- **Public routes**: `/users/register`, `/users/login`, and static resources (`/css/**`, `/js/**`, `/images/**`).  
+- **Book browsing**: `/books`, `/books/{id}`, and `/books/find` are accessible without authentication.  
+- **Admin-only routes**: Adding books or authors (`/books/add`, `/authors/add`) requires `ROLE_ADMIN`.  
+- **Authenticated routes**: Any other `/books/**` endpoint (e.g., update, delete) and all other parts of the app require login.  
+- **Login/Logout**: Custom login page at `/users/login`, with successful login redirecting to `/books`. Logout redirects to `/users/login?logout`.  
+
+## Team 
+- Student 1: Gheorghe Briana
+- Student 2: Turcitu Ana  
+- Course: Master’s in Databases and Software Technologies (Year 1, 2025)  
+- Discipline: Web Applications for Databases  
+
+## License 📄
+This project was created for academic purposes. All rights reserved.
