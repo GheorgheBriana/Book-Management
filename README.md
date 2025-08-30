@@ -71,29 +71,6 @@ mvn clean spring-boot:run -Dspring-boot.run.profiles=dev
 - **Book reviews**: http://localhost:8080/reviews/book/{book_id}
 
 ---
-
-## 5. Testing 
-    Run all tests with H2 in-memory DB:
-
-```bash
-mvn test
-```
-
-### Test types:
-  - Unit tests: services & repositories
-  - Integration tests: controllers
-  - Profile-specific config: test profile auto-configures H2
-  
-### Useful Test Commands
-
-```bash
-# Run a specific test class
-mvn -Dtest=BookServiceTest test
-# Run with detailed logs
-mvn -Dspring-boot.run.profiles=test -Dlogging.level.root=DEBUG test
-```
-
----
 ## Architecture and Technologies Used
 
 ```mermaid
@@ -152,7 +129,148 @@ The application uses **Spring Security** with a custom `UserDetailsService` and 
 - **Book browsing**: `/books`, `/books/{id}`, and `/books/find` are accessible without authentication.  
 - **Admin-only routes**: Adding books or authors (`/books/add`, `/authors/add`) requires `ROLE_ADMIN`.  
 - **Authenticated routes**: Any other `/books/**` endpoint (e.g., update, delete) and all other parts of the app require login.  
-- **Login/Logout**: Custom login page at `/users/login`, with successful login redirecting to `/books`. Logout redirects to `/users/login?logout`.  
+- **Login/Logout**: Custom login page at `/users/login`, with successful login redirecting to `/books`. Logout redirects to `/users/login?logout`.
+---
+## Demo 
+**Live demo:** [http://localhost:8080/books](http://localhost:8080/books)
+
+- **Register**  
+  [http://localhost:8080/users/register](http://localhost:8080/users/register)
+  
+  ![Register](https://github.com/user-attachments/assets/743eac3d-b214-43bc-9bdf-937d83447676)
+
+- **Login**  
+  [http://localhost:8080/users/login](http://localhost:8080/users/login)
+  After registration, the user is redirected to the login page where they must enter username and password.
+  
+  <img width="3027" height="1538" alt="image" src="https://github.com/user-attachments/assets/4943bebe-eef1-4b8b-9c56-7a26c07a8d05" />
+
+
+- **Home Page**  
+  [http://localhost:8080/books](http://localhost:8080/books)
+  
+  ![Home Page](https://github.com/user-attachments/assets/61f973c4-3e61-4db2-af4c-6870bfec3f43)
+
+- **Book Details**  
+  [http://localhost:8080/books/{id}](http://localhost:8080/books/{id})  
+  Clicking on a book redirects to its details page, where users can add a review. Admins can delete the book from this page.
+  
+  ![Book Details](https://github.com/user-attachments/assets/05231a49-53bb-4753-b664-2abac2ff36c8)
+
+- **Book Reviews**  
+  [http://localhost:8080/reviews/book/{bookId}](http://localhost:8080/reviews/book/{bookId})  
+  Displays all reviews for a specific book.
+  
+  ![Book Reviews](https://github.com/user-attachments/assets/92a80cb3-33f0-43d4-bcde-fc177890aac3)
+
+- **Add Review**  
+  A logged-in user can add a review by providing a description and a rating between 1 and 5.
+  
+  ![Add Review](https://github.com/user-attachments/assets/b1935335-f189-4725-86a9-d71d0b3e5f01)
+
+- **Add Book (Admin only)**  
+  Only admins can add books. The admin provides the title, description, and ISBN, then selects an existing author from the database (or adds a new one). After submission, the book is visible on `/books`.
+  
+  ![Add Book](https://github.com/user-attachments/assets/d4acce77-35f1-429e-a0cb-b92075102922)
+
+- **Add Author**  
+  ![Add Author](https://github.com/user-attachments/assets/4e5fb9a5-b309-4cc1-9a02-ef9d43628044)
+
+- **Authors List**  
+  ![Authors List](https://github.com/user-attachments/assets/6607d7d3-d76e-441e-b676-488439aab3cd)
+
+---
+## API Reference
+
+### Books
+| Method | Endpoint        | Description                        |
+|--------|-----------------|------------------------------------|
+| GET    | /books          | List all books (paginated)         |
+| GET    | /books/{id}     | View details of a specific book    |
+| GET    | /books/add      | Show add book form (HTML)          |
+| POST   | /books/add      | Create a new book (requires ADMIN) |
+
+### Authors
+| Method | Endpoint            | Description                        |
+|--------|---------------------|------------------------------------|
+| GET    | /authors            | List all authors (paginated)       |
+| GET    | /authors/add        | Show add author form (HTML)        |
+| POST   | /authors/add        | Create a new author (requires ADMIN) |
+| GET    | /authors/edit/{id}  | Show edit author form              |
+| POST   | /authors/update/{id}| Update author details              |
+
+### Reviews
+| Method | Endpoint                  | Description                            |
+|--------|---------------------------|----------------------------------------|
+| GET    | /reviews/book/{bookId}    | List all reviews for a book            |
+| GET    | /reviews/add/{bookId}     | Show add review form (HTML)            |
+| POST   | /reviews/add/{bookId}     | Submit a new review for a book         |
+
+### Genres (REST API)
+| Method | Endpoint       | Description              | Response Example |
+|--------|----------------|--------------------------|------------------|
+| GET    | /api/genres    | List all genres          | `[{"id":1,"name":"Fiction"}]` |
+| GET    | /api/genres/{id} | Get details of a genre | `{"id":1,"name":"Fiction"}`   |
+
+### UserBooks (REST API)
+| Method | Endpoint                       | Description                            | Response Example |
+|--------|--------------------------------|----------------------------------------|------------------|
+| GET    | /api/userbooks/users/{userId}  | List all books of a user               | `[{"userId":1,"bookId":2}]` |
+| POST   | /api/userbooks                 | Create a user–book relation (JSON)     | `{"userId":1,"bookId":2}`   |
+
+### Users
+| Method | Endpoint        | Description             |
+|--------|-----------------|-------------------------|
+| GET    | /users/login    | Show login form (HTML)  |
+| POST   | /users/login    | Authenticate user       |
+| GET    | /users/register | Show register form      |
+| POST   | /users/register | Create new user account |
+---
+## 5. Testing 
+    Run all tests with H2 in-memory DB:
+
+```bash
+mvn test
+```
+
+### Test types:
+  - Unit tests: services & repositories
+  - Integration tests: controllers
+  - Profile-specific config: test profile auto-configures H2
+  
+### Useful Test Commands
+
+```bash
+# Run a specific test class
+mvn -Dtest=BookServiceTest test
+# Run with detailed logs
+mvn -Dspring-boot.run.profiles=test -Dlogging.level.root=DEBUG test
+```
+## Example Test 🧪
+
+### AuthorService - Create Author
+```java
+@Test
+void testCreateAuthor() {
+    AuthorDTO dto = new AuthorDTO();
+    dto.setName("Andrei Popescu");
+    dto.setBirthDate("2000-01-01");
+
+    Author savedAuthor = new Author();
+    savedAuthor.setName("Andrei Popescu");
+
+    when(authorRepository.save(any(Author.class))).thenReturn(savedAuthor);
+
+    Author result = authorService.createAuthor(dto);
+
+    assertNotNull(result);
+    assertEquals("Andrei Popescu", result.getName());
+    verify(authorRepository, times(1)).save(any(Author.class));
+}
+```
+<img width="2521" height="1679" alt="image" src="https://github.com/user-attachments/assets/0140ed1a-8227-4beb-b5fc-db24f2fe3eb9" />
+
+---
 
 ## Team 
 - Student 1: Gheorghe Briana
